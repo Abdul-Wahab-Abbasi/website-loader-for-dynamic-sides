@@ -1,6 +1,6 @@
 # website-loader-for-dynamic-sides
 Hello!
-if you are finding a loader for your dynamic side, so you are on a right path 
+if you are finding a loader for your dynamic website, so you are on a right path 
 this loader works on page reloading and server requests like POAST, GET etc.
 
 Just Download or Copy the code of load.js file and use it in your project
