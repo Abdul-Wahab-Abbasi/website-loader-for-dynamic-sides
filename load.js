@@ -18,6 +18,16 @@ window.addEventListener('beforeunload', function () {
     showLoadingBar(); // Show the loading bar when leaving the page
 });
 
+// Listen for the pageshow event (when the page is loaded or navigated to)
+window.addEventListener('pageshow', function (event) {
+    hideLoadingBar(); // Hide the loading bar when the page is shown (back/forward navigation)
+});
+
+// Listen for the pagehide event (when the page is unloaded or hidden)
+window.addEventListener('pagehide', function () {
+    showLoadingBar(); // Show the loading bar when the page is hidden
+});
+
 // HTML:
 // you can customize this according to your needs but keep the 'id' same!
 
